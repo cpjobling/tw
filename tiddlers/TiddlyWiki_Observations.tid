@@ -1,0 +1,14 @@
+created: 20160704085306996
+modified: 20160704090501772
+tags: TiddlyWiki Notes Contents
+title: TiddlyWiki Observations
+type: text/vnd.tiddlywiki
+
+When you create a wiki with node version
+
+```
+tiddlywiki MyWiki --init
+```
+you get a directory containing a JSON file  `MyWiki.info` and a folder `tiddlers` that contain the tiddlers, one file per tiddler.
+
+This makes a Node ~TiddlyWiki easily version-controllable.
